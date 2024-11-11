@@ -1,9 +1,15 @@
-function App() {
+import React from "react";
+import EventsList from "./components/EventsList";
+import HeadingText from "./components/HeadingText";
+
+const App = () => {
   return (
     <>
-      <h1>Excel PreEvents</h1>
+      <div className="app-container">
+        <HeadingText />
+        <EventsList />
+      </div>
     </>
   );
-}
-
+};
 export default App;
