@@ -5,7 +5,12 @@ import ExcelLogo from "../assets/ExcelLogo.webp";
 const HeadingText = () => {
   return (
     <div className="flex justify-center gap-3 items-center heading-bg">
-      <img src={ExcelLogo} alt="Excel Logo" className="excel-logo" />
+      <img
+        src={ExcelLogo}
+        alt="Excel Logo"
+        className="excel-logo"
+        fetchPriority="high"
+      />
       <SparklesText
         text="EXCEL PREEVENTS"
         sparklesCount={3}
