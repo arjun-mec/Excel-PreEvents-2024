@@ -51,18 +51,18 @@ body {
 }
 
 .heading-bg {
-  background-color: #75279f;
+  background-color: #862db6;
   background-image: url("../src/assets/heading-squares-bg.webp");
   padding: 20px 30px;
   border-radius: 10px;
   max-width: 600px;
   width: 100%;
+  min-height: 100px;
 }
 
 .excel-logo {
   max-height: 75px;
-  height: auto;
-  width: auto;
+  max-width: 75px;
 }
 
 @media (max-width: 768px) {
@@ -90,6 +90,7 @@ body {
   }
   .excel-logo {
     max-height: 60px;
+    max-width: 60px;
   }
 }
 

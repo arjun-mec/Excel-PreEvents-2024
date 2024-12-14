@@ -1,6 +1,6 @@
 import React from "react";
 import SparklesText from "./ui/SparklesText";
-import ExcelLogo from "../assets/ExcelLogo.webp";
+import ExcelLogo from "../assets/ExcelLogoWhite.webp";
 
 const HeadingText = () => {
   return (
